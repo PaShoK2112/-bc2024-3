@@ -2,7 +2,7 @@ const {program} = require(`commander`);
 const fs = require (`fs`);
 
 program
-.requiredOption (`-i, --input <path>`)
+.option (`-i, --input <path>`)
 .option ('-o, --output <path>')
 .option ('-d, --display');
 
